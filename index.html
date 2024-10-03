@@ -1,0 +1,2075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombok Invite</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js"></script>
+
+</head>
+<body>
+    <!--- Promotion--->
+    <div class="bg-indigo-600 px-4 py-3 text-white">
+        <p class="text-center text-sm font-medium">
+            📢 PROMO HINGGA 60 % ❣?
+            <a href="#" class="inline-block underline">Khusus untuk pembelian pertamamu 🎊</a>
+        </p>
+    </div>
+    <!--- End Promotion--->
+
+    <!--- Header--->
+    <header>
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 bg-light">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="text-center sm:text-left">
+                    <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl">Hai calon manten!</h1>
+
+                    <p class="mt-1.5 text-sm text-gray-500">Sekarang kirim undangan bisa sambil rebahan! 🎉</p>
+                </div>
+
+                <div class="mt-4 flex flex-col gap-4 sm:mt-0 sm:flex-row sm:items-center">
+                    <a
+                            href="https://wa.me/6287862246263?text= Min mau tanya tentang undangannya dong!"
+                            class="flex items-center justify-center block rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring"
+                            type="button"
+                    >
+                        Chat Admin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--- End Header--->
+
+    <!--- Web Template--->
+    <div class="container px-4">
+        <header class="max-w-xl mb-8">
+        <h1 class="text-2xl font-bold text-black-700 sm:text-3xl mb-3">Pilihan Tema</h1>
+
+        <h2 class="text-xl text-gray-900 sm:text-3xl ">
+            Pilihlah Tema Desain Sesuai Undangan Impianmu !
+        </h2>
+    </header>
+        <!-- Tabs -->
+        <div>
+            <div class="sm:hidden">
+                <label for="Tab" class="sr-only">Tab</label>
+
+                <select id="Tab" class="w-full rounded-md border bg-indigo-600 mb-8 text-xl text-white" onchange="changeTab()">
+                    <option value="floral">Floral</option>
+                    <option value="elegant">Elegant</option>
+                    <option value="islamic">Islamic</option>
+                    <option value="traditional">Traditional</option>
+                    <option value="minimalist">Minimalist</option>
+                    <option value="other" select>Tema Lainnya</option>
+                </select>
+            </div>
+
+            <div class="hidden sm:block  mb-4">
+                <nav class="flex gap-6" aria-label="Tabs">
+                    <a
+                            id="floral-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            onclick="showTab('floral')"
+                    >
+                        Floral
+                    </a>
+
+                    <a
+                            id="elegant-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            onclick="showTab('elegant')"
+                    >
+                        Elegant
+                    </a>
+
+                    <a
+                            id="islamic-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            onclick="showTab('islamic')"
+                    >
+                        Islamic
+                    </a>
+
+                    <a
+                            id="traditional-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            onclick="showTab('traditional')"
+                    >
+                        Traditional
+                    </a>
+
+                    <a
+                            id="minimalist-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            onclick="showTab('minimalist')"
+                    >
+                        Minimalist
+                    </a>
+
+                    <a
+                            id="other-tab"
+                            href="#"
+                            class="shrink-0 rounded-lg p-2 text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-700"
+                            aria-current="page"
+                            onclick="showTab('other')"
+                    >
+                        Tema Lainnya
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <!-- Daftar Produk -->
+        <div id="floral-products" class="product-list hidden" >
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Floral Tema</span>
+            </span>
+            <div class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                        <div
+                                class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                        >
+                            <span class="sr-only">Wishlist</span>
+
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="h-4 w-4"
+                            >
+                                <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                                />
+                            </svg>
+                        </div>
+
+                        <img
+                                src="img/floral-1.jpg" height="600" width="800"
+                                alt=""
+                                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                        />
+
+                        <div class="relative border border-gray-100 bg-white p-6">
+
+                            <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                            <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 1</h3>
+
+                            <p class="mt-1.5 text-sm text-gray-700">
+                                <del>Rp 150.000</del>
+                                <span class="text-red-500">Rp 75.000</span>
+                            </p>
+
+                            <form class="mt-4 grid grid-cols-2 gap-2">
+                                <a href="https://demo.invee.net/?template=floral-1"
+                                        class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                                >
+                                        View
+
+                                </a>
+                                <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 1!"
+                                        class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                                >
+                                    Order
+                                </a>
+                            </form>
+                        </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                        <div
+                                class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                        >
+                            <span class="sr-only">Wishlist</span>
+
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="h-4 w-4"
+                            >
+                                <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                                />
+                            </svg>
+                        </div>
+
+                        <img
+                                src="img/floral-2.jpg" height="600" width="800"
+                                alt=""
+                                class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                        />
+
+                        <div class="relative border border-gray-100 bg-white p-6">
+
+                            <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                            <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 2</h3>
+
+                            <p class="mt-1.5 text-sm text-gray-700">
+                                <del>Rp 150.000</del>
+                                <span class="text-red-500">Rp 75.000</span>
+                            </p>
+
+                            <form class="mt-4 grid grid-cols-2 gap-2">
+                                <a href="https://demo.invee.net/?template=floral-2"
+                                   class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                                >
+                                    View
+
+                                </a>
+                                <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 2"
+                                   class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                                >
+                                    Order
+                                </a>
+                            </form>
+                        </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-3.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 3</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-3"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 3"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-4.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 4</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-4"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 4"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-5.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium">Classic</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 5</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-5"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 5"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-6.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 6</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-6"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 6"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-7.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 7</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-7"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 7"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-8.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 8</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-8"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 8"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/floral-9.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Floral 9</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=floral-9"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Floral 8"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="elegant-products" class="product-list hidden">
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Elegant Tema</span>
+            </span>
+            <div class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Elegant%201.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Elegant 1</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=elegant-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Elegant 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/elegant-2.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Elegant 2</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=elegant-2"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Elegant 2"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="islamic-products" class="product-list hidden">
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Islamic Tema</span>
+            </span>
+            <div  class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/islamic-1.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Islamic 1</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=elegant-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Islamic 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/islamic-2.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-50 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Islamic 2</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=elegant-2"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Islamic 2"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="traditional-products" class="product-list hidden">
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Traditional Tema</span>
+            </span>
+            <div  class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Adat%20Jawa.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Traditional 1</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=traditional-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Traditional 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Adat%20Bali.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Traditional 2</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=traditional-2"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Traditional 2"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Adat%20Sumatera.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Traditional 3</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=traditional-3"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Traditional 3"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/traditional-4.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Traditional 4</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=traditional-4"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Traditional 4"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="minimalist-products" class="product-list hidden">
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Minimalist Tema</span>
+            </span>
+            <div  class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Minimalist%201.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 1</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Minimalist%202.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 2</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-2"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/Minimalist%203.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 3</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-3"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 3"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/Minimalist%204.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium"> Clasic </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 4</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-4"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 4"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/Minimalist%205.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium">Classic</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 5</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-5"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 5"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-6.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 6</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-6"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 6"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-7.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 7</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-7"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 7"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/minimalist-8.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 8</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-8"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 8"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-9.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 9</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-9"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 9"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-10.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 10</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-10"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 10"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-11.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 11</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-11"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 11"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/minimalist-12.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Minimalist 12</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=minimalist-12"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Minimalist 12"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="other-products" class="product-list hidden">
+            <span class="relative flex justify-center mb-3">
+                  <div
+                          class="absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-transparent bg-gradient-to-r from-transparent via-gray-500 to-transparent opacity-75"
+                  ></div>
+
+                  <span class="relative z-10 bg-white px-6">Tema Lainnya</span>
+            </span>
+            <div  class="container grid grid-cols-1 gap-5 md:grid-cols-3 max-w-6xl mx-auto">
+                <div class="group relative block overflow-hidden">
+                    <div
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </div>
+
+                    <img
+                            src="img/overlay-shadow-1.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium"> Premium </span>
+
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Overlay Shadow 1</h3>
+
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=overlay-shadow-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Overlay Shadow 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/overlay-shadow-2.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-200 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Overlay Shadow 2</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=overlay-shadow-2"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Overlay Shadow 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/overlay-shadow-3.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Overlay Shadow 3</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=overlay-shadow-3"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Overlay Shadow 3"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/aqiqah-1.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-gray-50 px-3 py-1.5 text-xs font-medium">Clasic</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Aqiqah 1</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 150.000</del>
+                            <span class="text-red-500">Rp 75.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=aqiqah-1"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Aqiqah 1"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="group relative block overflow-hidden">
+                    <button
+                            class="absolute end-4 top-4 z-10 rounded-full bg-white p-1.5 text-gray-900 transition hover:text-gray-900/75"
+                    >
+                        <span class="sr-only">Wishlist</span>
+
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="h-4 w-4"
+                        >
+                            <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+                            />
+                        </svg>
+                    </button>
+
+                    <img
+                            src="img/aqiqah-2.jpg" height="600" width="800"
+                            alt=""
+                            class="h-64 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-72"
+                    />
+
+                    <div class="relative border border-gray-100 bg-white p-6">
+                        <span class="whitespace-nowrap bg-yellow-400 px-3 py-1.5 text-xs font-medium">Premium</span>
+                        <h3 class="mt-4 text-lg font-medium text-gray-900">Aqiqah 2</h3>
+                        <!-- Harga Asli dengan Garis Coret -->
+                        <p class="mt-1.5 text-sm text-gray-700">
+                            <del>Rp 200.000</del>
+                            <span class="text-red-500">Rp 100.000</span>
+                        </p>
+                        <form class="mt-4 grid grid-cols-2 gap-2">
+                            <a href="https://demo.invee.net/?template=overlay-shadow-3"
+                               class="flex items-center justify-center block w-full rounded bg-gray-100 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                View
+                            </a>
+                            <a href="https://wa.me/6287862246263?text= Min mau order undangan tema Aqiqah 2"
+                               class="flex items-center justify-center block w-full rounded bg-yellow-400 p-4 text-sm font-medium transition hover:scale-105 mb-2"
+                            >
+                                Order
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--- End Web Template--->
+
+
+    <!--- Testimoni--->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Foto Pelanggan Kami</h2>
+            <div class="relative">
+                <!-- Carousel Container -->
+                <div id="carousel" class="flex overflow-x-auto space-x-4 pb-4 touch-pan-x">
+                    <!-- Card 1 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/5G5A9846%20-%20M.%20Satriawan%20Bay%20Dowi.JPG" alt="Pelanggan 1">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Aria & Core</h3>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/11062b_33c02306ba2e4b1b80a1cdfb0b75da9c~mv2.jpg" alt="Pelanggan 2">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Dimas & Irma</h3>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/multazam.jpeg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Tazam & Yunita</h3>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/YS2A8687.jpg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Sahrul & Yulia</h3>
+                        </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/WhatsApp%20Image%202024-05-15%20at%2012.42.22.jpeg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Egi & Dilla</h3>
+                        </div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/SLPT90614 (1).jpg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Imam & Widya</h3>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/IMG_7793.jpg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Rigel & Rara</h3>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="min-w-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img class="w-full h-48 object-cover" src="img/IMG_20240422_141019.jpg" alt="Pelanggan 3">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-gray-800">Dana & Nuzwa</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Buttons -->
+                <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">‹</button>
+                <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 rounded-full">›</button>
+            </div>
+        </div>
+    </section>
+    <!--- End Testimoni--->
+
+    <footer class="bg-gray-50">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <div class="flex justify-center text-indigo-600 sm:justify-start">
+                    <h4>Lombok Invite</h4>
+                </div>
+
+                <p class="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+                    Copyright &copy; 2022. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
